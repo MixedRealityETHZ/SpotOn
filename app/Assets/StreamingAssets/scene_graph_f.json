@@ -1,0 +1,416 @@
+{
+    "ingoing": {
+        "1": [
+            0,
+            3
+        ],
+        "3": [
+            1
+        ],
+        "10": [
+            2,
+            12
+        ],
+        "12": [
+            10
+        ],
+        "7": [
+            6
+        ],
+        "6": [
+            7
+        ],
+        "14": [
+            8
+        ],
+        "16": [
+            9,
+            11
+        ],
+        "15": [
+            13
+        ],
+        "8": [
+            14
+        ],
+        "13": [
+            15
+        ],
+        "11": [
+            16
+        ]
+    },
+    "labels": {
+        "28": [
+            0,
+            12
+        ],
+        "13": [
+            1
+        ],
+        "24": [
+            2
+        ],
+        "23": [
+            3
+        ],
+        "1163": [
+            6,
+            7,
+            11
+        ],
+        "8": [
+            8
+        ],
+        "7": [
+            9
+        ],
+        "4": [
+            10
+        ],
+        "25": [
+            13,
+            14,
+            15
+        ],
+        "232": [
+            16
+        ]
+    },
+    "outgoing": {
+        "0": 1,
+        "1": 3,
+        "2": 10,
+        "3": 1,
+        "6": 7,
+        "7": 6,
+        "8": 14,
+        "9": 16,
+        "10": 12,
+        "11": 16,
+        "12": 10,
+        "13": 15,
+        "14": 8,
+        "15": 13,
+        "16": 11
+    },
+    "unmovable": [
+        "armchair",
+        "bookshelf",
+        "end table",
+        "shelf",
+        "coffee table",
+        "dresser"
+    ],
+    "pose": [
+        [
+            -0.9995243209583318,
+            0.002695261706692093,
+            0.030720450646995696,
+            0.8430976341220613
+        ],
+        [
+            -0.0023347118457911634,
+            -0.9999279185689883,
+            0.01176622509705105,
+            -0.15322116500082023
+        ],
+        [
+            0.0307499526640974,
+            0.011688867721562381,
+            0.9994587083036149,
+            0.3684514228771168
+        ],
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.9999998211860657
+        ]
+    ],
+    "min_confidence": 0.1,
+    "pcd": "data/241210_temp_hl/scene_graph/pcd.ply",
+    "mesh": "data/241210_temp_hl/scene_graph/mesh.ply",
+    "nodes": {
+        "0": {
+            "type": "lamp",
+            "label": "red lamp",
+            "centroid": [
+                0.3684752965444786,
+                -0.945281832186526,
+                -1.132575682243695
+            ],
+            "color": [
+                1.0,
+                0.25098039,
+                0.50588235
+            ],
+            "mesh_mask": "data/241210_temp_hl/nodes/mesh_mask/0_mesh_mask.npy",
+            "pcd": "data/241210_temp_hl/nodes/pcd_segmentation_color/0_pcd_scene_graph_colour.ply",
+            "pcd_real": "data/241210_temp_hl/nodes/pcd_real_color/0_pcd_scene_graph_colour.ply"
+        },
+        "1": {
+            "type": "draggable",
+            "label": "pillow",
+            "centroid": [
+                0.08457353459758538,
+                -0.1855332207288719,
+                -1.1881875666252233
+            ],
+            "color": [
+                0.39215686,
+                0.56078431,
+                1.0
+            ],
+            "mesh_mask": "data/241210_temp_hl/nodes/mesh_mask/1_mesh_mask.npy",
+            "pcd": "data/241210_temp_hl/nodes/pcd_segmentation_color/1_pcd_scene_graph_colour.ply",
+            "pcd_real": "data/241210_temp_hl/nodes/pcd_real_color/1_pcd_scene_graph_colour.ply"
+        },
+        "2": {
+            "type": "unmovable",
+            "label": "coffee table",
+            "centroid": [
+                -0.15197649738006308,
+                0.3513048761720346,
+                -0.6327263534669177
+            ],
+            "color": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "mesh_mask": "data/241210_temp_hl/nodes/mesh_mask/2_mesh_mask.npy",
+            "pcd": "data/241210_temp_hl/nodes/pcd_segmentation_color/2_pcd_scene_graph_colour.ply",
+            "pcd_real": "data/241210_temp_hl/nodes/pcd_real_color/2_pcd_scene_graph_colour.ply"
+        },
+        "3": {
+            "type": "unmovable",
+            "label": "armchair",
+            "centroid": [
+                0.21666615419449486,
+                -0.11679738175441778,
+                -1.3137929527367695
+            ],
+            "color": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "mesh_mask": "data/241210_temp_hl/nodes/mesh_mask/3_mesh_mask.npy",
+            "pcd": "data/241210_temp_hl/nodes/pcd_segmentation_color/3_pcd_scene_graph_colour.ply",
+            "pcd_real": "data/241210_temp_hl/nodes/pcd_real_color/3_pcd_scene_graph_colour.ply"
+        },
+        "6": {
+            "type": "draggable",
+            "label": "milk bottle",
+            "centroid": [
+                -0.15226133222804367,
+                -0.4972481672278081,
+                0.48033388383389186
+            ],
+            "color": [
+                1.0,
+                0.25098039,
+                0.50588235
+            ],
+            "mesh_mask": "data/241210_temp_hl/nodes/mesh_mask/6_mesh_mask.npy",
+            "pcd": "data/241210_temp_hl/nodes/pcd_segmentation_color/6_pcd_scene_graph_colour.ply",
+            "pcd_real": "data/241210_temp_hl/nodes/pcd_real_color/6_pcd_scene_graph_colour.ply"
+        },
+        "7": {
+            "type": "draggable",
+            "label": "picture frame",
+            "centroid": [
+                -0.22812192984952162,
+                -0.5046986421793145,
+                0.8913555234137833
+            ],
+            "color": [
+                0.39215686,
+                0.56078431,
+                1.0
+            ],
+            "mesh_mask": "data/241210_temp_hl/nodes/mesh_mask/7_mesh_mask.npy",
+            "pcd": "data/241210_temp_hl/nodes/pcd_segmentation_color/7_pcd_scene_graph_colour.ply",
+            "pcd_real": "data/241210_temp_hl/nodes/pcd_real_color/7_pcd_scene_graph_colour.ply"
+        },
+        "8": {
+            "type": "unmovable",
+            "label": "shelf",
+            "centroid": [
+                -0.1757285647970286,
+                -0.05541547290614533,
+                0.6829474610073223
+            ],
+            "color": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "mesh_mask": "data/241210_temp_hl/nodes/mesh_mask/8_mesh_mask.npy",
+            "pcd": "data/241210_temp_hl/nodes/pcd_segmentation_color/8_pcd_scene_graph_colour.ply",
+            "pcd_real": "data/241210_temp_hl/nodes/pcd_real_color/8_pcd_scene_graph_colour.ply"
+        },
+        "9": {
+            "type": "unmovable",
+            "label": "cabinet",
+            "centroid": [
+                -0.12369434618875935,
+                -0.11429168712711667,
+                0.010138762470273788
+            ],
+            "color": [
+                0.99607843,
+                0.38039216,
+                0.0
+            ],
+            "mesh_mask": "data/241210_temp_hl/nodes/mesh_mask/9_mesh_mask.npy",
+            "pcd": "data/241210_temp_hl/nodes/pcd_segmentation_color/9_pcd_scene_graph_colour.ply",
+            "pcd_real": "data/241210_temp_hl/nodes/pcd_real_color/9_pcd_scene_graph_colour.ply"
+        },
+        "10": {
+            "type": "unmovable",
+            "label": "coffe table",
+            "centroid": [
+                -0.11841800176008763,
+                -0.10828599576131194,
+                -0.6051328398843384
+            ],
+            "color": [
+                0.70196078,
+                0.53333333,
+                1.0
+            ],
+            "mesh_mask": "data/241210_temp_hl/nodes/mesh_mask/10_mesh_mask.npy",
+            "pcd": "data/241210_temp_hl/nodes/pcd_segmentation_color/10_pcd_scene_graph_colour.ply",
+            "pcd_real": "data/241210_temp_hl/nodes/pcd_real_color/10_pcd_scene_graph_colour.ply"
+        },
+        "11": {
+            "type": "unmovable",
+            "label": "flower vase",
+            "centroid": [
+                -0.16514756240043876,
+                -0.6303989730679108,
+                0.0164611930299684
+            ],
+            "color": [
+                0.70196078,
+                0.53333333,
+                1.0
+            ],
+            "mesh_mask": "data/241210_temp_hl/nodes/mesh_mask/11_mesh_mask.npy",
+            "pcd": "data/241210_temp_hl/nodes/pcd_segmentation_color/11_pcd_scene_graph_colour.ply",
+            "pcd_real": "data/241210_temp_hl/nodes/pcd_real_color/11_pcd_scene_graph_colour.ply"
+        },
+        "12": {
+            "type": "lamp",
+            "label": "green lamp",
+            "centroid": [
+                -0.11769669910415739,
+                -0.26489490072647626,
+                -0.6318546928999668
+            ],
+            "color": [
+                1.0,
+                0.69019608,
+                0.0
+            ],
+            "mesh_mask": "data/241210_temp_hl/nodes/mesh_mask/12_mesh_mask.npy",
+            "pcd": "data/241210_temp_hl/nodes/pcd_segmentation_color/12_pcd_scene_graph_colour.ply",
+            "pcd_real": "data/241210_temp_hl/nodes/pcd_real_color/12_pcd_scene_graph_colour.ply"
+        },
+        "13": {
+            "type": "drawer",
+            "label": "bottom drawer",
+            "centroid": [
+                -0.012285430613355908,
+                0.26116330807363325,
+                0.500250850654243
+            ],
+            "color": [
+                0.8627451,
+                0.14901961,
+                0.49803922
+            ],
+            "mesh_mask": "data/241210_temp_hl/nodes/mesh_mask/13_mesh_mask.npy",
+            "pcd": "data/241210_temp_hl/nodes/pcd_segmentation_color/13_pcd_scene_graph_colour.ply",
+            "pcd_real": "data/241210_temp_hl/nodes/pcd_real_color/13_pcd_scene_graph_colour.ply",
+            "belongs_to": 8,
+            "normal": [
+                0.9991603371497099,
+                0.012718680299571038,
+                0.03894954869632358
+            ]
+        },
+        "14": {
+            "type": "drawer",
+            "label": "top drawer",
+            "centroid": [
+                -0.013424098592972777,
+                -0.1433252958597607,
+                0.8784662719774076
+            ],
+            "color": [
+                0.39215686,
+                0.56078431,
+                1.0
+            ],
+            "mesh_mask": "data/241210_temp_hl/nodes/mesh_mask/14_mesh_mask.npy",
+            "pcd": "data/241210_temp_hl/nodes/pcd_segmentation_color/14_pcd_scene_graph_colour.ply",
+            "pcd_real": "data/241210_temp_hl/nodes/pcd_real_color/14_pcd_scene_graph_colour.ply",
+            "belongs_to": 8,
+            "normal": [
+                0.9973427911188767,
+                0.0241665895279647,
+                0.0687280477378811
+            ]
+        },
+        "15": {
+            "type": "drawer",
+            "label": "middle drawer",
+            "centroid": [
+                -0.004707183531541981,
+                0.08638471953922888,
+                0.5048641285310035
+            ],
+            "color": [
+                0.89803922,
+                0.22352941,
+                0.20784314
+            ],
+            "mesh_mask": "data/241210_temp_hl/nodes/mesh_mask/15_mesh_mask.npy",
+            "pcd": "data/241210_temp_hl/nodes/pcd_segmentation_color/15_pcd_scene_graph_colour.ply",
+            "pcd_real": "data/241210_temp_hl/nodes/pcd_real_color/15_pcd_scene_graph_colour.ply",
+            "belongs_to": 8,
+            "normal": [
+                0.9970091906759445,
+                0.07062595359891476,
+                0.03138249748289517
+            ]
+        },
+        "16": {
+            "type": "light_switch",
+            "label": "light switch",
+            "centroid": [
+                0.06668341918199533,
+                -0.42856981450732184,
+                -0.09250164252516857
+            ],
+            "color": [
+                0.70196078,
+                0.53333333,
+                1.0
+            ],
+            "mesh_mask": "data/241210_temp_hl/nodes/mesh_mask/16_mesh_mask.npy",
+            "pcd": "data/241210_temp_hl/nodes/pcd_segmentation_color/16_pcd_scene_graph_colour.ply",
+            "pcd_real": "data/241210_temp_hl/nodes/pcd_real_color/16_pcd_scene_graph_colour.ply",
+            "interaction": null,
+            "normal": [
+                0.9971221058830889,
+                -0.07580349828827743,
+                -0.0012433993403525487
+            ],
+            "lamps": []
+        }
+    }
+}
